@@ -25,7 +25,7 @@ To simplify the state machine used to parse the I2C transactions, the Read/<u>Wr
 
 ## Usage
 
-The design was succesfully tested with an Intel DE-10 Nano and Tang Nano 9K, recording the I2C transactions between a PC and CY4534 USB-C Power Delivery dev board, with the I2C bus operating at around 300KHz. Faster clocks should be possible (depending on the clock speed of the FPGA used), although I haven't tested that myself. With the default parameters, the implementation footprint on a Nano 9K came to approximately 200 LUTs and 100FFs.
+The design was succesfully tested with an Intel DE-10 Nano and Tang Nano 9K, recording the I2C transactions between a PC and CY4534 USB-C Power Delivery development board, with the I2C bus operating at around 300KHz. Faster clocks should be possible (depending on the clock speed of the FPGA used), although I haven't tested that myself. With the default parameters, the implementation footprint on a Nano 9K came to approximately 200 LUTs and 100FFs.
 
 There a few parameters that should be adjusted, according to your intended usecase:
 
